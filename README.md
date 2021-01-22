@@ -1,4 +1,4 @@
-# flask_guid
+# flask_guide
 
 # while using vagrant
 
