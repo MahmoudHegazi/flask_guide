@@ -2,6 +2,24 @@
 
 # while using vagrant
 
+
+### how to handle unknown counts of paramter came to your server in professional object 
+##### this how the rest created
+```
+@app.route('/paypalcallback/<string:payload>', methods=['GET'])
+def lols(payload):
+    secured = '%s' % payload
+
+    payment_object = {'complete_token':str(),'additonal_pramter':str()}
+    paramters_object = {}
+    # real important if not found & it will return list contains stirng nice
+    paramter_list = secured.split('&')
+    for query_paramter in paramter_list:
+        half = query_paramter.split('=')
+        paramters_object[half[0]] = half[1]
+    return jsonify(paramters_object)
+```
+
 to run the venv
 
 ```python
