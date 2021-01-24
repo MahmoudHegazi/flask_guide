@@ -2,6 +2,7 @@
 
 # while using vagrant
 
+psql -h localhost -d todo -U y 
 
 ### how to handle unknown counts of paramter came to your server in professional object 
 ##### this how the rest created
