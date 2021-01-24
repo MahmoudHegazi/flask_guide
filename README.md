@@ -20,6 +20,8 @@ def lols(payload):
     return jsonify(paramters_object)
 ```
 
+<img src="accept_all_and_recgonize_all.JPG">
+<img src="call_back_handle.JPG">
 to run the venv
 
 ```python
