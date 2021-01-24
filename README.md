@@ -10,7 +10,7 @@
 def lols(payload):
     secured = '%s' % payload
 
-    payment_object = {'complete_token':str(),'additonal_pramter':str()}
+    #old way payment_object = {'complete_token':str(),'additonal_pramter':str()}
     paramters_object = {}
     # real important if not found & it will return list contains stirng nice
     paramter_list = secured.split('&')
